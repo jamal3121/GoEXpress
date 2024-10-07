@@ -1,0 +1,28 @@
+.hovereff .search{
+    transition: all .2s linear;
+}
+.hovereff:hover .search{
+    top: 45%;
+}
+.card:hover .hovereff,
+.card .hovereff .img{
+    transition: all .3s linear;
+
+}
+.card:hover .hovereff .img{
+    transform: scale(1.1);
+    filter: brightness(.5);
+
+}
+.circlething{
+    box-shadow: rgba(13, 38, 76, 0.19) 0px 9px 20px;
+}
+
+.card:hover .circlething{
+    transition: all .3s linear;
+   
+}
+.card:hover .circlething{
+   background-color: #fed604;
+   color: #212121;
+}

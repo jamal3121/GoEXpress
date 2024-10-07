@@ -1,0 +1,49 @@
+.prl-100 {
+  padding: 20px 100px;
+}
+.icon {
+  transition: all 0.5 linear;
+}
+.icon:hover {
+  background-color: #fed604;
+}
+
+.cartsProduct div .icones .hovereff {
+  display: none;
+  transform: scaleX(0);
+
+  transition: all .5s linear;
+}
+
+.cartsProduct:hover div .icones .hovereff {
+  display: flex;
+  font-size: 1.3rem;
+  width: 100%;
+  gap: 20px;
+  padding: 5px 7px;
+  transform: scaleX(1);
+}
+.cartsProduct:hover div .icones .hovereff .icon {
+  background-color: black;
+  color: white;
+  height: 25px;
+  width: 25px;
+  padding: 4px;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+
+.cartsProduct div .icones .hovereff .icon:hover {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: #fed604;
+  font-size: 15px;
+  color: black;
+  transform: rotateY(180deg);
+  padding: 4px;
+}
+.active{
+    background-color: #fed604;
+    
+}

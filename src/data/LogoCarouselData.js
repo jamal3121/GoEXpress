@@ -1,0 +1,23 @@
+export const logo = [
+    {
+        url:'https://opencart.templatetrip.com/OPC02/OPC050_goexpress/OPC05/image/cache/catalog/demo/manufacturer/brand-logo-01-130x130.png'
+    },
+    {
+        url:'https://opencart.templatetrip.com/OPC02/OPC050_goexpress/OPC05/image/cache/catalog/demo/manufacturer/brand-logo-02-130x130.png'
+    },
+    {
+        url:'https://opencart.templatetrip.com/OPC02/OPC050_goexpress/OPC05/image/cache/catalog/demo/manufacturer/brand-logo-03-130x130.png'
+    },
+    {
+        url:'https://opencart.templatetrip.com/OPC02/OPC050_goexpress/OPC05/image/cache/catalog/demo/manufacturer/brand-logo-04-130x130.png'
+    },
+    {
+        url:'https://opencart.templatetrip.com/OPC02/OPC050_goexpress/OPC05/image/cache/catalog/demo/manufacturer/brand-logo-05-130x130.png'
+    },
+    {
+        url:'https://opencart.templatetrip.com/OPC02/OPC050_goexpress/OPC05/image/cache/catalog/demo/manufacturer/brand-logo-06-130x130.png'
+    },
+    {
+        url:'https://opencart.templatetrip.com/OPC02/OPC050_goexpress/OPC05/image/cache/catalog/demo/manufacturer/brand-logo-07-130x130.png'
+    },
+]

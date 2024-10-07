@@ -1,0 +1,36 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+.prl-100 {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* CardSlider.css */
+.card-slider {
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+
+
+
+.slider-controls {
+  position: absolute;
+  top: -10px; /* Adjust vertical position */
+  right: 10px; /* Adjust horizontal position */
+  z-index: 1; /* Ensure buttons are above other elements */
+}
+
+.control-button {
+  background-color: #007bff; /* Change button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-left: 5px; /* Space between buttons */
+  cursor: pointer;
+}
+
+.control-button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}

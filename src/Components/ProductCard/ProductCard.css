@@ -1,0 +1,63 @@
+.crd:hover .det .div .image {
+  transform: scale(1.1);
+}
+.crd .det .div .image {
+  transition: all 0.3s ease-out;
+}
+
+.productcardsection::-webkit-scrollbar {
+  display: none;
+}
+.slider-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-card {
+  min-width: 350px; /* Set to the width of each product */
+  height: 200px;
+  border: 1px solid #ccc; /* Add your desired border style */
+  margin-right: 16px; /* Space between cards */
+  background: #fff; /* Background color for cards */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-header {
+  background: #f0f0f0; /* Header background color */
+}
+
+.category {
+  padding: 8px;
+  font-weight: bold;
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.models-brands {
+  display: flex;
+  flex-direction: column;
+}
+
+.model,
+.brand {
+  display: flex;
+  align-items: center;
+  margin: 2px 0;
+}
+
+.product-image {
+  width: 90%;
+  height: auto;
+}

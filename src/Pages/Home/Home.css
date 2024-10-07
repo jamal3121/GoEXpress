@@ -1,0 +1,37 @@
+
+.prl-100{
+    padding-right:100px;
+    padding-left: 100px;
+    overflow: hidden;
+
+}
+.banner-1{
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://opencart.templatetrip.com/OPC02/OPC050_goexpress/OPC05/image/catalog/demo/banners/banner-01.jpg);
+    transition: .6s;
+}
+.banner-1:hover{
+    transform: scale(1.1);
+}
+.banner-2{
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://opencart.templatetrip.com/OPC02/OPC050_goexpress/OPC05/image/catalog/demo/banners/banner-02.jpg);
+    transition: .6s;
+}
+.banner-2:hover{
+    transform: scale(1.1);
+}
+.banpar .banner-3{
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://opencart.templatetrip.com/OPC02/OPC050_goexpress/OPC05/image/catalog/demo/banners/subbanner-01.jpg');
+    filter: drop-shadow();
+    transition: 1s;
+
+}
+.banpar:hover .banner-3{
+    transform: scale(1.1);
+    filter: contrast(.8);
+}
